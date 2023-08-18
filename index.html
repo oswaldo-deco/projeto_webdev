@@ -4,6 +4,7 @@
     </head>
     <body>
         <header style="display: flex;">
+            <img src="logo.png"/>
             <a href="https://www.alienxshein.com" style="margin-left: 20px;"><h3>HOME</h3></a>
             <a href="https://www.alienxshein.com/products" style="margin-left: 20px;"><h3>PRODUTOS</h3></a>
             <a href="https://www.alienxshein.com/requests" style="margin-left: 20px;"><h3>PEDIDOS</h3></a>
@@ -14,8 +15,8 @@
         <h1> Seu Carrinho </h1>
         <div style="display: flex;">
         <div style=" border: 0.1pc solid black; padding: 0.5pc; width: 35%;">
-            <img src=""/>
-            <p>placeholder nome1</p>
+            <img src="camisetaPreta.webp"/>
+            <p>camiseta preta</p>
             <p>Tamanho: </p>
             <input type="number" name="size" min="1" max="5">
             <p>Quantidade: </p>
@@ -56,11 +57,11 @@
         <form>
         <h3>Endereço:</h3>
         <p>Lograudoro</p>
-        <input type="text" name="street" required>
+        <input type="text" name="street" required maxlength="30">
         <p>Numero</p>
-        <input type="text" name="number" required>
+        <input type="text" name="number" required maxlength="7">
         <p>CEP</p>
-        <input type="text" name="postalCode" required>
+        <input type="text" name="postalCode" required maxlength="8">
         <p>Complemento</p>
         <input type="text" name="complement">
         <p>Referencia</p>
