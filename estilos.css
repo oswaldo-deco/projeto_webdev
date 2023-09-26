@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #545454;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 28px;
+    border: 2px;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px;
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.bordas {
+    padding: 10x;
+    background-color: #545454;
+    border: 2px solid white;
+}
+
