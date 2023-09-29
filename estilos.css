@@ -7,6 +7,15 @@ body {
     font-size: 28px;
     border: 2px;
     text-align: center;
+    color: white;
+}
+form {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: fit-content;
+    border: 20px outset black;
+    background-color: #333;
 }
 
 .logo {
@@ -32,7 +41,7 @@ nav li {
 }
 
 main {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 40px;
     padding: 20px;
     color: white;
@@ -43,6 +52,8 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
+    bottom: 0;
+    margin-top: 50px;
 }
 
 .bordas {
@@ -51,3 +62,7 @@ footer {
     border: 2px solid white;
 }
 
+a{
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+}
