@@ -5,7 +5,7 @@ Trabalho para a disciplina de Desenvolvimento Web
 
 Alunos:
 Oswaldo Henrique Deco Costa Soares Neto
-Yuri
+Yuri Congenca Terato Ramos
 Pedro Alves
-Isabella
+Izabella Ferreira dos Passos
 Ana Caroline Ferreira dos Passos
